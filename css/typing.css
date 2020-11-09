@@ -1,0 +1,320 @@
+/* grade_choice.html typing_.html共通-------------------- */
+
+.wrapper {
+    /* width: 100%; */
+    height: 100vh;
+    max-width: 1280px;
+    min-width: 768px;
+    margin: 0 auto;
+}
+
+header {
+    height: 5%;
+}
+
+main {
+    height: 90%;
+}
+
+footer {
+    height: 5%;
+}
+
+/* ヘッダー部分 */
+.nav_belt .col-12 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_belt .col-12 img {
+    height: 40px;
+    margin-left: -20px;
+}
+
+
+
+.nav_belt .col-12 p {
+    margin-bottom: 0;
+    margin-right: 40px;
+    font-size: 12px;
+}
+
+.style_none {
+    list-style:none;
+    line-height:100%;
+}
+
+/* 中央部分--------------------------- */
+.main_space {
+    height: 100%;
+}
+
+
+/* 右サイド広告エリア */
+.ad_text {
+    background: #f2f2f2;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* フッター部分 */
+.footer_area {
+    background: #4f3e34;
+    color: #fbfbfd;
+    font-size: 12px;
+    height: 100%;
+}
+
+.footer_area .col-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer_area .col-12 p,
+a {
+    color: #fbfbfd;
+    opacity: 0.8;
+    margin: 0;
+}
+
+footer .footer_area .col-12 a:hover {
+    color: #fbfbfd;
+    opacity: 1;
+}
+
+/* grade_choice.html typing_.html共通終わり-------------------- */
+
+
+/* ここからgrade_choice.html----------------------- */
+/* 中央グレード選択エリア --------------------------*/
+.choice_erea {
+    background: #fbfbfd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.how_to {
+    margin: 30px;
+    list-style: none;
+}
+
+.how_to p:first-child {
+    font-size: 64px;
+    text-align: center;
+    padding-left: 100px;
+}
+
+.how_to p {
+    font-size: 24px;
+    display: inline;
+    margin-left: 20px;
+}
+
+.how_to img {
+    height: 100px;
+    width: 100px;
+}
+
+.level_choices {
+    margin-left: 150px;
+}
+
+.level_choice_5 {
+    background: #f7469b;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    font-size: 14px;
+    padding: 7px 20px;
+}
+
+.level_choice_6 {
+    background: #48ccf8;
+    columns: black;
+    border-radius: 50px;
+    border: none;
+    font-size: 14px;
+    padding: 7px 20px;
+}
+
+.level_choice_7 {
+
+    background: #f8e25d;
+    columns: black;
+    border-radius: 50px;
+    border: none;
+    font-size: 14px;
+    padding: 7px 20px;
+}
+
+/* grad.html終了-------------------------------- */
+
+
+/* ここからtyping.html--------------------------------- */
+
+/* 左サイドメニュー */
+
+.menu {
+    background: #f2f2f2;
+    text-align: center;
+    padding: 20px 0 0 0;
+    height: 100%;
+}
+
+.menu .ul_scroll {
+    height: 88%;
+    width: 100%;
+    margin-top: 30px;
+    overflow: auto;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+    opacity: 0.3;
+}
+
+.menu li:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.search input {
+    height: 30px;
+    width: 80%;
+    margin-left: 13px;
+    border-radius: 20px;
+    padding: 0 20px 0 20px;
+    border: none;
+}
+
+.search input::placeholder {
+    opacity: 0.5;
+}
+
+.main_word_submit {
+    border: 0;
+    cursor:pointer;
+    margin-top:.5rem;
+    font-size: 1rem;
+}
+
+/* 中央タイピングエリア---------------- */
+/* 課題の写真 */
+.how_to_contents {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.how_to_contents div {
+    margin-top: 10px;
+}
+
+.theme_img {
+    margin-bottom: 30px;
+    width: 50%;
+    height: 350px;
+    overflow: auto;
+    /*object-fit:cover;*/
+}
+
+.theme_img img {
+    width: 100%;
+    
+}
+
+#en_text {
+    font-size: 32px;
+    letter-spacing: 3px;
+    margin-bottom: 0px;
+}
+
+#change {
+    font-size: 32px;
+    letter-spacing: 3px;
+}
+
+#target {
+    font-size: 32px;
+    letter-spacing: 2px;
+    display: inline;
+    /*opacity: 0.1;*/
+}
+
+.spanOpacity{
+    opacity:0.1;
+}
+
+.notOpacity{
+    opacity:1.0;
+}
+
+#navi_area {
+    display: flex;
+    justify-content: center;
+    /*margin-top: 50px;*/
+    text-align:center;
+}
+
+#alerts {
+    height: 50px;
+    border-radius: 30px;
+    /* width: 100px; */
+    /* padding: 5px; */
+    text-align: center;
+    margin: 0 0 20px 0;
+    /*cursor: pointer;*/
+    margin-left: 10px;
+    /*box-shadow: 0 0 3px 0 rgba(0, 0, 0, .12), 0 2px 3px 0 rgba(0, 0, 0, .22);*/
+    transition: .3s;
+}
+
+.how_to_contents .how_to_navi {
+    margin-top: 5px;
+}
+
+.how_to_navi p {
+    display: inline;
+    font-size: 24px;
+}
+
+.how_to_navi img {
+    width: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width:1024px){
+    .theme_img {
+        margin-bottom: 30px;
+        width: 50%;
+        height: 250px;
+        /*overflow: auto;*/
+        /*object-fit:cover;*/
+    }
+}
+
+@media (max-width:576px){
+    /*.theme_img {*/
+    /*margin-bottom: 30px;*/
+    /*width: 100%;*/
+    /*height: 200px;*/
+    /*overflow: auto;*/
+    /*object-fit:cover;*/
+}

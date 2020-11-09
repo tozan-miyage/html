@@ -1,0 +1,237 @@
+/* -------index.htmlが主に対象--------- */
+
+body {
+  font-family: "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro",
+  "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3",
+  "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO";
+  width: 100%;
+}
+
+
+.site_logo {
+  text-align: left;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  background: white;
+  opacity: 0.9;
+}
+
+.top_screen {
+  margin-top: 60px;
+  position: relative;
+}
+
+.top_img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.top_img img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 600px;
+}
+
+.site_title_and_link_button {
+  position: absolute;
+  top: 12%;
+  left: 55%;
+  text-align: center;
+}
+
+.site_title_english {
+  font-size: 5rem;
+  color: white;
+}
+
+.site_title {
+  color: white;
+  font-size: 2rem;
+}
+
+.link_button {
+  width: 80%;
+  padding: 0.5rem;
+  border-radius: 50px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size: 1rem;
+  opacity: 0.7;
+  border: none;
+}
+
+.link_button:hover {
+  opacity: 1;
+}
+
+.explanation {
+  text-align: center;
+  padding: 3rem;
+  background: #f2f2f2;
+}
+
+.basis_font {
+  font-size: 1.4rem;
+  margin: 1rem;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.caption {
+  font-size: 4rem;
+}
+
+.fadein {
+    /* 画面外にいる状態 */
+    opacity: 0;
+    transform: translate(0, 50px);
+    transition: all 1000ms;
+  }
+
+.fadein.scrollin {
+  /* 画面内に入った状態 */
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.illustration {
+  padding: 2rem;
+  position: relative;
+}
+
+.illustration_img {
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.summary_illustration_img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.summary_illustration_img img{
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.pink {
+  color: #f7469b;
+}
+
+.yellow {
+  color: #f8e25d;
+}
+
+.blue {
+  color: #48ccf8;
+}
+
+
+
+.footer_ul {
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+  color: white;
+
+}
+
+.fotter_list {
+  margin: 1rem;
+  color: white;
+}
+
+.js-modal-open {
+  color: white;
+}
+
+.modal {
+  display: none;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 6;
+}
+
+.modal__bg {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+}
+
+.modal__content {
+  background: #fff;
+  left: 50%;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 70%;
+  overflow: auto;
+}
+
+.modal__content a {
+  color: #4f3e34;
+}
+
+@media (max-width:768px) {
+  .site_title_and_link_button {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  .basis_font {
+    font-size: 1rem;
+    margin: 1rem;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+
+  .caption {
+    font-size: 3rem;
+  }
+
+
+  .footer_ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: #000;
+    opacity: 0.7;
+    color: white;
+    font-size:.8rem;
+  }
+}
+
+@media (max-width:576px) {
+  .site_title_english {
+    font-size: 3rem;
+  }
+
+  .site_title {
+    color: white;
+    font-size: 1rem;
+  }
+
+  .top_img img {
+    height: 300px;
+  }
+
+  .illustration_img {
+    width: 100%;
+  }
+}
